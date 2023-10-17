@@ -1,0 +1,19 @@
+﻿  Application.cpp
+  DeadScene.cpp
+  GameObject.cpp
+  Main.cpp
+  Map.cpp
+C:\Users\sangy\source\repos\PushPush\PushPush\Map.cpp(14,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sangy\source\repos\PushPush\PushPush\Map.cpp(19,25): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sangy\source\repos\PushPush\PushPush\Map.cpp(21,26): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sangy\source\repos\PushPush\PushPush\Map.cpp(30,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sangy\source\repos\PushPush\PushPush\Map.cpp(40,25): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\sangy\source\repos\PushPush\PushPush\Map.cpp(42,26): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  PlayScene.cpp
+  Scene.cpp
+  TitleScene.cpp
+  코드를 생성하고 있습니다...
+PlayScene.obj : error LNK2019: "public: __thiscall Player::Player(void)" (??0Player@@QAE@XZ)"public: __thiscall PlayScene::PlayScene(void)" (??0PlayScene@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+PlayScene.obj : error LNK2019: "public: __thiscall Player::~Player(void)" (??1Player@@QAE@XZ)"public: __thiscall PlayScene::~PlayScene(void)" (??1PlayScene@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+PlayScene.obj : error LNK2019: "public: void __thiscall Player::InputProcess(void)" (?InputProcess@Player@@QAEXXZ)"public: virtual void __thiscall PlayScene::Update(void)" (?Update@PlayScene@@UAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\sangy\source\repos\PushPush\Debug\PushPush.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
